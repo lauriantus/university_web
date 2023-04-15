@@ -1,0 +1,85 @@
+body {
+    margin: 10 10;
+    font-family: sans-serif;
+    background-color: rgb(152, 199, 183);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 5, 5);
+    font-style: italic;
+}
+a:hover {
+    color: rgb(99, 43, 43);
+}
+footer {
+    background: linear-gradient(to left, rgb(61, 236, 193), rgb(81, 81, 139));
+    text-align: left
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(130, 130, 226), rgb(224, 224, 115));
+}
+
+.main-info {
+    border-bottom: 3px solid rgb(21, 21, 165);
+
+}
+
+#name {
+    font-size: 22;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#logo-first {
+    color: brown;
+    text-align: right;
+    font-size: 26px;
+    font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#logo-second {
+    color: green;
+    font-family: cursive;
+}
+
+#link-page {
+    color: rgb(50, 161, 78);
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.notate {
+    border-left: 4px solid green;
+    margin-left: 20px;
+    padding-left: 15px;
+    background: linear-gradient(to right,rgb(4, 155, 37), rgb(152, 199, 183));
+}
+.list-medicine a {
+    color: rgb(19, 19, 111);
+}
+.anchor a{
+    color: grey;
+}
+.adgust-list {
+    list-style-type: none;
+}
+
+.left-img {
+    margin-left: 10px;
+}
+
+.text-block {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 3px solid rgb(211, 81, 11);
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
